@@ -1,0 +1,7 @@
+Иденти | Командная строка                                        | Дата и время     | Действия       | Изменен
+--------------------------------------------------------------------------------------------------------------
+     5 | install -y nginx libcap-ng-utils dnf-plugins-core       | 2026-10-16 20:12 | Install        |    5   
+     4 | upgrade --refresh -y                                    | 2026-10-16 20:07 | I, O, U        |  325 E<
+     3 | autoremove -y --setopt=metadata_expire=-1               | 2026-10-16 19:55 | Removed        |    1 ><
+     2 | remove -y --setopt=metadata_expire=-1 open-vm-tools spi | 2026-10-16 19:54 | Removed        |    2 >E
+     1 |                                                         | 2026-10-16 19:45 | Install        | 1848 EE
